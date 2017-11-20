@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39138D5C4FD62484E333FF11 /* Pods_Sinch_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467A6992997B58A8CC44B49D /* Pods_Sinch_Swift.framework */; };
+		C12B331E1E69928500828B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12B331D1E69928500828B6B /* AppDelegate.swift */; };
+		C12B33201E69928500828B6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12B331F1E69928500828B6B /* ViewController.swift */; };
+		C12B33231E69928500828B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12B33211E69928500828B6B /* Main.storyboard */; };
+		C12B33251E69928500828B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12B33241E69928500828B6B /* Assets.xcassets */; };
+		C12B33281E69928500828B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12B33261E69928500828B6B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		467A6992997B58A8CC44B49D /* Pods_Sinch_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sinch_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ED79DDC462CC1BA62683BA5 /* Pods-Sinch Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch Swift/Pods-Sinch Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		C12B331A1E69928500828B6B /* Sinch Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sinch Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12B331D1E69928500828B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C12B331F1E69928500828B6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C12B33221E69928500828B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12B33241E69928500828B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C12B33271E69928500828B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C12B33291E69928500828B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12B332F1E6993CF00828B6B /* Sinch Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sinch Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D9FC6E28AA8A6884F245AE83 /* Pods-Sinch Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sinch Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sinch Swift/Pods-Sinch Swift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12B33171E69928500828B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39138D5C4FD62484E333FF11 /* Pods_Sinch_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4140D667816E4FBA5441C149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				467A6992997B58A8CC44B49D /* Pods_Sinch_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847410352E99873F32FE8FAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ED79DDC462CC1BA62683BA5 /* Pods-Sinch Swift.debug.xcconfig */,
+				D9FC6E28AA8A6884F245AE83 /* Pods-Sinch Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C12B33111E69928500828B6B = {
+			isa = PBXGroup;
+			children = (
+				C12B331C1E69928500828B6B /* Sinch Swift */,
+				C12B331B1E69928500828B6B /* Products */,
+				847410352E99873F32FE8FAE /* Pods */,
+				4140D667816E4FBA5441C149 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C12B331B1E69928500828B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12B331A1E69928500828B6B /* Sinch Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12B331C1E69928500828B6B /* Sinch Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C12B331D1E69928500828B6B /* AppDelegate.swift */,
+				C12B331F1E69928500828B6B /* ViewController.swift */,
+				C12B33211E69928500828B6B /* Main.storyboard */,
+				C12B33241E69928500828B6B /* Assets.xcassets */,
+				C12B33261E69928500828B6B /* LaunchScreen.storyboard */,
+				C12B33291E69928500828B6B /* Info.plist */,
+				C12B332F1E6993CF00828B6B /* Sinch Swift-Bridging-Header.h */,
+			);
+			path = "Sinch Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12B33191E69928500828B6B /* Sinch Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12B332C1E69928500828B6B /* Build configuration list for PBXNativeTarget "Sinch Swift" */;
+			buildPhases = (
+				FCB5BE376FA8125D76CBEDB4 /* [CP] Check Pods Manifest.lock */,
+				C12B33161E69928500828B6B /* Sources */,
+				C12B33171E69928500828B6B /* Frameworks */,
+				C12B33181E69928500828B6B /* Resources */,
+				2AE130DE3293B538CC0AD151 /* [CP] Embed Pods Frameworks */,
+				59A9714A486EAD8D32DAE784 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sinch Swift";
+			productName = "Sinch Swift";
+			productReference = C12B331A1E69928500828B6B /* Sinch Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12B33121E69928500828B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "iOS Center";
+				TargetAttributes = {
+					C12B33191E69928500828B6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C12B33151E69928500828B6B /* Build configuration list for PBXProject "Sinch Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12B33111E69928500828B6B;
+			productRefGroup = C12B331B1E69928500828B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12B33191E69928500828B6B /* Sinch Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12B33181E69928500828B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12B33281E69928500828B6B /* LaunchScreen.storyboard in Resources */,
+				C12B33251E69928500828B6B /* Assets.xcassets in Resources */,
+				C12B33231E69928500828B6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AE130DE3293B538CC0AD151 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch Swift/Pods-Sinch Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59A9714A486EAD8D32DAE784 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sinch Swift/Pods-Sinch Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB5BE376FA8125D76CBEDB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12B33161E69928500828B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12B33201E69928500828B6B /* ViewController.swift in Sources */,
+				C12B331E1E69928500828B6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C12B33211E69928500828B6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12B33221E69928500828B6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C12B33261E69928500828B6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12B33271E69928500828B6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12B332A1E69928500828B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C12B332B1E69928500828B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12B332D1E69928500828B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ED79DDC462CC1BA62683BA5 /* Pods-Sinch Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Sinch Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.ioscenter.Sinch-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sinch Swift/Sinch Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C12B332E1E69928500828B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FC6E28AA8A6884F245AE83 /* Pods-Sinch Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Sinch Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.ioscenter.Sinch-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sinch Swift/Sinch Swift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12B33151E69928500828B6B /* Build configuration list for PBXProject "Sinch Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12B332A1E69928500828B6B /* Debug */,
+				C12B332B1E69928500828B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12B332C1E69928500828B6B /* Build configuration list for PBXNativeTarget "Sinch Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12B332D1E69928500828B6B /* Debug */,
+				C12B332E1E69928500828B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C12B33121E69928500828B6B /* Project object */;
+}
